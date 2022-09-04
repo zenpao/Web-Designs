@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Queue Manager | Home</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="css/externalCSS2.css">
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+        <!-- Font Awesome JS -->
+        <script src="js/solid.js"></script>
+        <script src="js/fontawesome.js"></script>
+        
+    </head>
+<body>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Queue Manager BETA</h3>
+        </div>
+        <ul class="list-unstyled components">
+            <li>
+                <a href="#queue">Queue</a>
+            </li>
+            <li>
+                <a href="#commercial">Commercial</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled CTAs">
+            <li>
+                <a href="#">Welcome to PhilSys FRC!</a>
+            </li>
+            <li>
+                <a href="#" class="logout" data-toggle="modal" data-target="#loginModal">Login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" id="username" name="username" class="form-control" placeholder="Username">
+                            </div>
+                            <div class="col">
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div
+
+<!-- Page Content  -->
+<div id="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+            <i class="fas fa-align-left"></i>
+            <span></span>
+            </button>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <as class="nav-link" href="#"><span id="datetime" class="badge badge-pill badge-dark">Time Placeholder</span></a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+
+<!--STATUS MONITOR-->
+<section id="queue">
+  <div class="container">
+      <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Counter | Now serving</li>
+                    <li class="list-group-item active">R1: <span class="badge badge-light"># Placeholder</span></li>
+                    <li class="list-group-item active">R2: <span class="badge badge-light"># Placeholder</span></li>
+                    <li class="list-group-item active">R3: <span class="badge badge-light"># Placeholder</span></li>
+                    <li class="list-group-item active">R4: <span class="badge badge-light"># Placeholder</span></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item d-none d-md-block">Counter | Now serving</li>
+                    <li class="list-group-item active">R5: <span class="badge badge-light"># Placeholder</span></li>
+                    <li class="list-group-item active">R6: <span class="badge badge-light"># Placeholder</span></li>
+                    <li class="list-group-item active d-none d-md-block"><br /></li>
+                    <li class="list-group-item active">ID REL: <span class="badge badge-light"># Placeholder</span></li>
+                </ul>
+            </div>   
+
+      </div>
+  </div>
+</section>
+
+<div class="line"></div>
+
+<!--COMMERCIAL-->
+<section id="commercial" >
+        <div class="container">
+              <div class="row">
+                <iframe width="800" height="480" src="https://www.youtube.com/embed/WFqLl18Cjx8?autoplay=1&mute=1&loop=1&playlist=WFqLl18Cjx8" name="youtube embed" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+          </div>
+  </section>
+
+    </div>
+</div>
+
+        <!-- jQuery (=without AJAX) -->
+        <script type="text/javascript" src="bootstrap-4.3.1-dist/jq/jquery-3.5.1.js"></script>
+        <!-- Popper.JS -->
+        <script type="text/javascript" src="bootstrap-4.3.1-dist/popper/popper-1.16.0.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script type="text/javascript" src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="jq/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="js/externalJS.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+Code:
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star Large
+         </button>
+         <button type="button" class="btn btn-default btn-md">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star Medium
+         </button>
+         <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star Small
+         </button>
+         <button type="button" class="btn btn-default btn-xs">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star Extra Small
+         </button>
+
+          <br />
+
+          <button type="submit" class="btn btn-default btn-lg">Default</button>
+          <button type="submit" class="btn btn-primary btn-lg">Primary</button>
+          <button type="submit" class="btn btn-danger btn-lg">Danger</button>
+          <button type="submit" class="btn btn-success btn-md">Success</button>
+          <button type="submit" class="btn btn-warning btn-sm">Warning</button>
+          <button type="submit" class="btn btn-info btn-xs">Info</button>
+
+       <script type="text/javascript" src="../bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+       <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>

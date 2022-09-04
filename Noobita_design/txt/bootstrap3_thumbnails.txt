@@ -1,0 +1,39 @@
+Code:
+	<div class="row"> <!-- 1st row -->
+            <div class="col-lg-4 col-md-6 col-sm-6"> <!-- 1st column -->
+                <div class="thumbnail">
+                    <img src="../img/ico.png" alt="first">
+                        <div class="caption">
+                            <h3>Thumbnail label 1</h3>
+                            <p>Short description 1</p>
+                            <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Upvote</a> 
+                            <a href="#" class="btn btn-default btn-sm" role="button">read more</a></p>
+                        </div>
+                </div>
+            </div> <!-- 1st column -->
+            <div class="col-lg-4 col-md-6 col-sm-6"> <!-- 2nd column -->
+                <div class="thumbnail">
+                    <img src="../img/ico.png">
+                        <div class="caption">
+                            <h3>Thumbnail label 2</h3>
+                            <p>Short description 2</p>
+                            <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Upvote</a> 
+                            <a href="#" class="btn btn-default btn-sm" role="button">read more</a></p>
+                        </div>
+                </div>
+            </div> <!-- 2nd column -->
+            <div class="col-lg-4 col-md-6 col-sm-6"> <!-- 3rd column -->
+                <div class="thumbnail">
+                    <img src="../img/ico.png">
+                        <div class="caption">
+                            <h3>Thumbnail label 3</h3>
+                            <p>Short description 3</p>
+                            <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Upvote</a> 
+                            <a href="#" class="btn btn-default btn-sm" role="button">read more</a></p>
+                        </div>
+                </div>
+            </div> <!-- 3rd column -->
+    </div> <!-- 1st row -->
+
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>

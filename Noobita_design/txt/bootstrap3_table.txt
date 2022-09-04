@@ -1,0 +1,40 @@
+Code:
+	<table class="table table-condensed table-hover">
+		<thead>
+			<tr class="active">
+				<th>00</th>
+				<th>01</th>
+				<th>02</th>
+				<th>03</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="success">04</td>
+				<td>05</td>
+				<td>06</td>
+				<td>07</td>
+			</tr>
+			<tr>
+				<td>08</td>
+				<td class="info">09</td>
+				<td>10</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td class="active">17</td>
+				<td class="warning">18</td>
+				<td class="danger">19</td>
+			</tr>
+		</tbody>
+	</table>
+
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>

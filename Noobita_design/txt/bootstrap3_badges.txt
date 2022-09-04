@@ -1,0 +1,11 @@
+Code:
+    <ul class="list-group">
+          <a href="#" class="list-group-item disabled">Default but disabled with badge <span class="badge">999</span></a>
+          <a href="#" class="list-group-item list-group-item-success active">Success and active with badge <span class="badge">2</span></a>
+          <a href="#" class="list-group-item list-group-item-info">Info with badge <span class="badge">77</span></a>
+          <a href="#" class="list-group-item list-group-item-warning">Warning with badge <span class="badge">69</span></a>
+          <a href="#" class="list-group-item list-group-item-danger">Danger with badge <span class="badge">666</span></a>
+    </ul>
+
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>

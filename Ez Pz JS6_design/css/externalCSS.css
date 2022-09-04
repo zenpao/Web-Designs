@@ -1,0 +1,26 @@
+.container {
+	/*background-color:#f7edd3;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 2%;
+	border-radius: 5%;
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+ul {
+	list-style-type: none;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/j-logo.png">
+    <title>PSA | Personnel Directory System</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../static/css/default.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="../static/css/jquery.mCustomScrollbar.min.css">
+    <!-- Font Awesome JS -->
+    <script src="../static/js/solid.js"></script>
+    <script src="../static/js/fontawesome.js"></script>
+    <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/js/ie-emulation-modes-warning.js">
+    <link rel="shortcut icon" href="../static/img/img.ico">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="background-image: url('../static/img/b-logo2.png');background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-blend-mode:overlay;background-color:rgba(255, 255, 255, 0.95);">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- hamburger menu when resized -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-5" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button> <!-- hamburger menu -->
+          <a class="navbar-brand" href="#">
+            <img alt="PSA" src="../static/img/j-logo.png" height="25" width="25">
+          </a>
+        </div>
+        <!-- navbar-collapse - hides when resized -->
+        <div class="collapse navbar-collapse" id="hamburger-5">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" target="_blank" onclick="window.open('http://rssocar.psa.gov.ph/benguet','_blank')"><small>RSSO-CAR PSO-Benguet</small></a></li>
+                <li><a href="#" target="_blank" onclick="window.open('https://www.facebook.com/PSAOfficialBenguet','_blank')"><small>PSA-Benguet Facebook</small></a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" target="_blank" onclick="window.open('https://www.bit.ly/aboutzenpao','_blank')"><small>LinkedIn</small></a></li>
+                <li><a href="#" target="_blank" onclick="window.open('https://github.com/zenpao','_blank')"><small>GitHub</small></a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <p class="navbar-text hidden-xs">User: <span style="color:white">Admin</span></p>
+            <li><a href="#" style="color:green" onclick="window.location.reload();" value="Refresh"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> </a></li>
+          </ul>
+          </div> <!-- /.navbar-collapse -->
+          </div> <!-- /.container -->
+        </nav>
+        <div class="container employee-list-padding">
+          <div class="container">
+            <button type="submit" class="btn btn-success btn-m">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> <a href="pds_add.html" style="color:white">Add Personnel</a>
+            </button>
+            <button type="submit" class="btn btn-warning btn-md" onclick="alert('Press CTRL + F to search.');">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+          </div>
+          
+          <hr/>
+          <!-- Table -->
+          <table class="table table-condensed table-hover borderless">
+            <thead>
+              <tr class="active">
+                <th><em>Ref. No.</em></th>
+                <th><em>Personnel</em></th>
+                <th><em>Designation</em></th>
+                <th><em>Mobile No.</em></th>
+                <th><em>Employment Status</em></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#</td>
+                <td>SAMPLE NAME</td>
+                <td>SAMPLE POSITION</td>
+                <td>639233578992</td>
+                <td>INACTIVE</td>
+                <td><a href="pds_update.html#EmployeeInformationSection" data-toggle="tooltip" data-placement="top" title="Employee Information"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></td>
+                <td><a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+              </td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+    </footer>
+    
+    <!-- jQuery (=without AJAX) -->
+    <script type="text/javascript" src="../static/bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="../static/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="../static/jq/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../static/js/externalJS.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../static/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

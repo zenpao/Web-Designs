@@ -1,0 +1,11 @@
+Code:
+	    <p id="top"><a href="https://www.google.com" target="_blank">Click here to go to google.com</a></p>
+	    <p>Scroll down afterwards please.</p>
+	        
+	    <br /><br /><br /><br /><br /><br /><br /><br />
+	    <br /><br /><br /><br /><br /><br /><br /><br />
+	    <br /><br /><br /><br /><br /><br /><br /><br />
+	    <br />
+
+	    <p><a href="#top">This is a link to top. [Press me!]</a></p>
+		

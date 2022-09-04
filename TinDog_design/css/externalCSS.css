@@ -1,0 +1,183 @@
+/* TITLE SECTION */
+
+#title {
+	background-color: #ff4c68; /* #ff4c68 #008080 */
+	color: #fff;
+}
+
+.container-fluid {
+	padding-top: 3%;
+	padding-bottom: 8%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+h1 {
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+body {
+	/* font-family: "Montserrat-Black"; */
+	font-family: "CCBackBeat"; /* Montserrat-Black */
+}
+
+.navbar {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+	/* font-family: "Übuntu"; */
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+}
+
+.btn-dwnld {
+	margin-left: 0;
+	margin-right: 3%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	font-size: 1rem;
+}
+
+.img-title {
+	width: 60%;
+	transform: rotate(25deg);
+	right: 30%;
+	position: absolute; 
+}
+
+/* FEATURES SECTION */
+
+#features {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.features-box {
+	text-align: center;
+	padding: 4.5%;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+h2 {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.img-testimonials {
+	width: 10%;
+	border-radius: 100%;
+	margin
+}
+
+.carousel-item {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+/* PRESS SECTION */
+
+#press {
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+	padding-bottom: 3%;
+}
+
+.img-press {
+	width: 15%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+	padding: 80px;
+	text-align: center;
+}
+
+.col-pricing {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+/* CTA SECTION */
+
+#cta {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+.cta-heading {
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	text-align: center;
+}
+
+@media (max-width: 1028px) {
+	#title{
+		text-align: center;
+	}
+	.img-title {
+		position: static;
+		padding-top: 10%;
+		transform: rotate(0);
+	}
+}

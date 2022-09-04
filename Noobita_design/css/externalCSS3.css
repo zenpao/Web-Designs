@@ -1,0 +1,30 @@
+iframe {
+	margin: 0 auto;
+}
+
+h5 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+hr {
+	border-top: 1px solid #f8f8f8;
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.center {
+	text-align: center;
+}
+
+#center-content {
+	text-align: center;
+}
+
+#show-div {
+	background-color: #f7edd3;
+	border-radius: 10px;
+}
+
+.show-nav {
+	background-color: #f7edd3;
+}

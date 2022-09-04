@@ -1,0 +1,22 @@
+/* 
+font-family: "Gotham";
+Blue: #134087;
+Red: #DE1129;
+Yellow: #FDC910;
+Gray:#9e9e9e;
+*/
+
+body {
+	font-family: "Gotham";
+	background-color:#134087; 
+	background-image: linear-gradient(#134087, white, #DE1129);
+}
+
+.navbar {
+background-color:#9e9e9e; 
+background-image: linear-gradient(#9e9e9e, white);
+}
+
+#queue, #dashboard {
+	margin: 25px;
+}

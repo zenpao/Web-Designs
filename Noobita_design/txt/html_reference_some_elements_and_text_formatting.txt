@@ -1,0 +1,7 @@
+Code:
+	<h1>This is an <strong>example of h1</strong></h1>
+	<h2>This is an <em>example of h2</em></h2>
+	<h3>This is an <ins>example of h3</ins></h3>
+	<h4>This is an <sup>example of h4</sup></h4>
+	<h5>This is an <sub>example of h5</sub></h5>
+	<h6>This is an <del>example of h6</del></h6>

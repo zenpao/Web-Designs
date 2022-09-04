@@ -1,0 +1,91 @@
+body{background-color:rgb(255, 255, 255);font:400 19px/1.38 Rokkitt;color:rgb(0, 0, 0);}
+
+.container{float:left;}
+
+.h2{float:left;}
+
+.h3{position:relative;float:left;color:rgb(0, 0, 0);}
+
+._button{display:block;position:relative;float:left;text-align:center;}
+
+._input{display:block;position:relative;float:left;padding:0 10px;border:1px solid rgb(0, 0, 0);border-radius:17px;background-color:rgb(242, 242, 242);font-size:13px;color:rgb(0, 0, 0);}
+
+.container-1{position:relative;z-index:0;width:100%;height:74px;border:1px solid rgb(75, 177, 103);border-radius:2px;background-color:rgb(75, 177, 103);}
+
+.container-2{width:100%;height:124px;background-image:url('../images/banner3.png');background-repeat:no-repeat;background-size:contain;background-position:center top;}
+
+.container-3{position:relative;clear:both;z-index:4;width:44.3333333333%;height:381px;margin:5px 0 0 27%;border:3px solid rgb(99, 95, 95);border-radius:2px;}
+
+.h2-1{position:relative;z-index:16;width:34.33%;min-height:19px;margin:-53px 0 0 14.25%;font-family:Montserrat;font-size:23px;letter-spacing:-2px;word-spacing:2px;color:rgb(255, 255, 255);}
+
+.h2-2{clear:both;margin:5px 0 0 27.16146%;font-size:25px;color:rgb(0, 0, 0);}
+
+.h3-1{clear:both;z-index:7;margin:-361px 0 0 31.56641%;}
+
+.h3-2{z-index:13;width:3.5833333333%;min-height:21px;margin:-361px 0 0 54.9987%;}
+
+.h3-3{z-index:8;margin:-315px 0 0 31.06641%;}
+
+.h3-4{z-index:12;width:9.5%;min-height:16px;margin:-119px 0 0 31.56641%;}
+
+._button-1{clear:both;z-index:15;width:12.0833333333%;height:61px;margin:-68px 0 0 1.99349%;border-radius:3px;background-image:url('../images/white_clear(4).png');background-repeat:no-repeat;background-size:contain;background-position:center center;font-family:Montserrat;font-size:16px;color:rgb(255, 255, 255);}
+
+._button-2{z-index:1;width:6.25%;height:41px;margin:-53px 0 0 77.19922%;border-radius:3px;background-image:url('../images/triangle36(4).png');background-repeat:no-repeat;background-size:contain;background-position:center center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-3{z-index:2;width:6.25%;height:41px;margin:-53px 0 0 84%;border-radius:3px;background-image:url('../images/profile(3).png');background-repeat:no-repeat;background-size:contain;background-position:right center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-4{z-index:3;width:6.25%;height:41px;margin:-53px 0 0 91.66406%;border-radius:3px;background-image:url('../images/log%20in.png');background-repeat:no-repeat;background-size:contain;background-position:right center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-5{z-index:11;width:10%;height:27px;margin:-47px 0 0 57.86589%;border:1px solid rgb(0, 0, 0);border-radius:11px;background-color:rgb(75, 177, 103);font-size:16px;color:rgb(0, 0, 0);}
+
+._input-1{z-index:9;width:16.6666666666%;height:26px;margin:-361px 0 0 37.1992199999%;text-align:center;}
+
+._input-2{z-index:14;width:9.25%;height:26px;margin:-361px 0 0 58.58203%;text-align:center;}
+
+._input-3{z-index:10;width:30.6666666666%;height:186px;margin:-315px 0 0 37.16667%;text-align:justify;}
+
+@media(max-width: 600px) {
+.container{position:relative;}
+
+.h2{position:relative;}
+
+.h3{position:relative;}
+
+._button{position:relative;}
+
+._input{position:relative;}
+
+.container-1{z-index:0;}
+
+.container-2{z-index:6;}
+
+.container-3{z-index:4;width:92.3333333333%;height:236px;margin-left:3.83073%;}
+
+.h2-1{z-index:16;margin-top:-20px;margin-left:0.99219%;font-size:15px;}
+
+.h2-2{z-index:5;margin-top:-17px;margin-left:3.83073%;}
+
+.h3-1{z-index:7;margin-top:-214px;margin-left:8.13021%;}
+
+.h3-2{z-index:13;margin-top:-214px;margin-left:58.58073%;}
+
+.h3-3{z-index:8;margin-top:-181px;margin-left:7.13021%;}
+
+.h3-4{z-index:12;width:19.3333333333%;margin-top:-68px;margin-left:7.13021%;}
+
+._button-1{z-index:15;width:18.8299999999%;height:62px;margin-top:-74px;margin-left:6.5%;}
+
+._button-2{z-index:1;margin-left:60.83073%;background-size:cover;background-position:right center;}
+
+._button-3{z-index:2;margin-left:74.65365%;background-size:cover;}
+
+._button-4{z-index:3;width:8%;margin-left:88.16406%;background-size:cover;}
+
+._button-5{z-index:11;width:14.3333333333%;margin-top:-38px;margin-left:78.9974%;}
+
+._input-1{z-index:9;width:36.3333333333%;margin-top:-214px;margin-left:19.66667%;}
+
+._input-2{z-index:14;width:18.8333333333%;margin-top:-214px;margin-left:65.66667%;}
+
+._input-3{z-index:10;width:65.5%;height:94px;margin-top:-176px;margin-left:19.66667%;}
+}

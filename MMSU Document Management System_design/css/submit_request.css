@@ -1,0 +1,59 @@
+body{background-color:rgb(255, 255, 255);font:400 16px/1.38 Rokkitt;color:rgb(0, 0, 0);}
+
+.container{float:left;}
+
+.h2{float:left;}
+
+.text{position:relative;float:left;clear:both;z-index:8;width:15.8333333333%;min-height:16px;margin:-34px 0 0 48.57943%;text-shadow:0 2px 5px rgba(0, 0, 0, .5);text-align:center;color:rgba(255, 0, 0, 0.88);}
+
+._button{display:block;position:relative;float:left;text-align:center;}
+
+.container-1{position:relative;z-index:0;width:100%;height:74px;border:1px solid rgb(75, 177, 103);border-radius:2px;background-color:rgb(75, 177, 103);}
+
+.container-2{width:100%;height:124px;background-image:url('../images/banner3.png');background-repeat:no-repeat;background-size:contain;background-position:center top;}
+
+.container-3{position:relative;clear:both;z-index:4;width:52.8333333333%;height:388px;margin:5px 0 0 23.58203%;border:3px solid rgb(99, 95, 95);border-radius:2px;}
+
+.h2-1{position:relative;z-index:10;width:34.33%;min-height:29px;margin:-53px 0 0 14.25%;font-family:Montserrat;font-size:23px;letter-spacing:-2px;word-spacing:2px;color:rgb(255, 255, 255);}
+
+.h2-2{clear:both;margin:5px 0 0 23.59896%;font-size:25px;color:rgb(0, 0, 0);}
+
+._button-1{clear:both;z-index:9;width:12.0833333333%;height:61px;margin:-68px 0 0 2.16797%;border-radius:3px;background-image:url('../images/white_clear.png');background-repeat:no-repeat;background-size:contain;background-position:center center;font-family:Montserrat;color:rgb(0, 0, 0);}
+
+._button-2{z-index:1;width:6.25%;height:41px;margin:-53px 0 0 77.19922%;border-radius:3px;background-image:url('../images/triangle36(4).png');background-repeat:no-repeat;background-size:contain;background-position:center center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-3{z-index:2;width:6.25%;height:41px;margin:-53px 0 0 84%;border-radius:3px;background-image:url('../images/profile(3).png');background-repeat:no-repeat;background-size:contain;background-position:right center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-4{z-index:3;width:6.25%;height:41px;margin:-53px 0 0 91.66406%;border-radius:3px;background-image:url('../images/log%20in.png');background-repeat:no-repeat;background-size:contain;background-position:right center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-5{z-index:7;width:10%;height:27px;margin:-39px 0 0 64.39974%;border:1px solid rgb(0, 0, 0);border-radius:11px;background-color:rgb(75, 177, 103);color:rgb(0, 0, 0);}
+
+@media(max-width: 600px) {
+.container{position:relative;}
+
+.h2{position:relative;}
+
+.text{position:relative;z-index:8;width:32.3333333333%;margin-top:-39px;margin-left:41.14323%;}
+
+._button{position:relative;}
+
+.container-1{z-index:0;}
+
+.container-2{clear:both;z-index:6;margin-top:-9px;}
+
+.container-3{clear:none;z-index:4;width:92.3333333333%;height:267px;margin-top:8px;margin-left:3.83073%;}
+
+.h2-1{z-index:10;margin-top:-20px;margin-left:0.99219%;font-size:15px;}
+
+.h2-2{z-index:5;margin-top:-34px;margin-left:3.83073%;}
+
+._button-1{z-index:9;width:18.8299999999%;height:62px;margin-top:-74px;margin-left:6.5%;}
+
+._button-2{z-index:1;margin-left:25.26823%;background-size:cover;background-position:right center;}
+
+._button-3{z-index:2;margin-left:38.47396%;background-size:cover;}
+
+._button-4{z-index:3;width:8%;margin-left:51.38542%;background-size:cover;}
+
+._button-5{z-index:7;width:19.3333333333%;margin-top:-45px;margin-left:73.83073%;}
+}

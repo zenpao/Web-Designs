@@ -1,0 +1,29 @@
+Code:
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- hamburger menu when resized -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button> <!-- hamburger menu -->
+                <a href="#" class="navbar-brand">BRAND</a>
+            </div>
+            <!-- navbar-collapse - hides when resized -->
+            <div class="collapse navbar-collapse" id="hamburger-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">About</a>
+                    <li><a href="#">Contact</a>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a>
+                    <li><a href="#">Login</a>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+    </nav>
+
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>

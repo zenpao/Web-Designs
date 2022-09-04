@@ -1,0 +1,20 @@
+Code:
+    <ul>
+        <li>This is an</li>
+        <li>Unordered</li>
+        <li>list</li>
+    </ul>
+    <ol type="A">
+        <li>This is an</li>
+        <li>Ordered</li>
+        <li>list</li>
+    </ol>
+    <ul>
+        <li>This is an</li>
+        <li>Unordered</li>
+        <li>list with<ol>
+            <li>an ordered</li>
+            <li>list inside</li>
+        </ol>
+    </li>
+    </ul>

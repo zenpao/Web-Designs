@@ -1,0 +1,16 @@
+img {
+	width: 30%;
+	float: left;
+	/* float -> removes built-in margin provided by browser. */
+	margin: 1.66%; /* 10% divided by 6 margins is 1.66. */
+}
+
+p {
+	font-family: Impact;
+	font-size: 25px;
+	font-weight: 500px;
+	margin-left: 1.66%;
+	width: 30%;
+	border-bottom: 2px solid #f1f1f1;
+	padding-bottom: 20px;
+}

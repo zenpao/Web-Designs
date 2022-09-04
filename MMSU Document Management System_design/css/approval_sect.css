@@ -1,0 +1,77 @@
+body{background-color:rgb(255, 255, 255);font:400 16px/1.38 Rokkitt;color:rgb(0, 0, 0);}
+
+.container{float:left;}
+
+.h2{float:left;}
+
+.text{position:relative;float:left;z-index:12;width:8.1666666666%;min-height:16px;margin:-76px 0 0 24.83073%;color:rgb(0, 0, 0);}
+
+._button{display:block;position:relative;float:left;text-align:center;}
+
+._input{display:block;position:relative;float:left;z-index:13;width:22.4166666666%;height:41px;margin:-54px 0 0 24.83073%;padding:0 10px;border:1px solid rgb(0, 0, 0);border-radius:17px;background-color:rgb(242, 242, 242);font-size:13px;color:rgb(0, 0, 0);}
+
+.container-1{position:relative;z-index:0;width:100%;height:74px;background-color:rgb(75, 177, 103);}
+
+.container-2{width:100%;height:124px;background-image:url('../images/banner3.png');background-repeat:no-repeat;background-size:contain;background-position:center top;}
+
+.container-3{clear:both;width:52.8333333333%;height:176px;margin:8px 0 0 23.57943%;border:3px solid rgb(99, 95, 95);border-radius:2px;}
+
+.container-4{position:relative;clear:both;z-index:8;width:24.5833333333%;height:121px;margin:8px 0 0 23.58073%;border:3px dashed rgb(99, 95, 95);border-radius:2px;}
+
+.container-5{position:relative;z-index:7;width:26.4166666666%;height:121px;margin:-121px 0 0 50%;border:3px dashed rgb(99, 95, 95);border-radius:2px;}
+
+.h2-1{position:relative;z-index:15;width:34.3333333333%;min-height:19px;margin:-53px 0 0 14.25%;font-family:Montserrat;font-size:23px;letter-spacing:-2px;word-spacing:2px;color:rgb(255, 255, 255);}
+
+.h2-2{clear:both;margin:5px 0 0 23.58073%;font-size:25px;color:rgb(0, 0, 0);}
+
+._button-1{clear:both;z-index:14;width:12.08%;height:61px;margin:-68px 0 0 2.16797%;border-radius:3px;background-image:url('../images/white_clear(2).png');background-repeat:no-repeat;background-size:contain;background-position:center center;font-family:Montserrat;color:rgb(0, 0, 0);}
+
+._button-2{z-index:1;width:6.25%;height:41px;margin:-53px 0 0 77.19922%;border-radius:3px;background-image:url('../images/triangle36(4).png');background-repeat:no-repeat;background-size:contain;background-position:center center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-3{z-index:2;width:6.25%;height:41px;margin:-53px 0 0 84%;border-radius:3px;background-image:url('../images/profile(3).png');background-repeat:no-repeat;background-size:contain;background-position:right center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-4{z-index:3;width:6.25%;height:41px;margin:-53px 0 0 91.66406%;border-radius:3px;background-image:url('../images/log%20in.png');background-repeat:no-repeat;background-size:contain;background-position:right center;font-size:14px;color:rgb(255, 255, 255);}
+
+._button-5{clear:both;z-index:9;width:6.6666666666%;height:22px;margin:-106px 0 0 24.83073%;border:1px solid rgb(0, 0, 0);border-radius:11px;background-color:rgb(222, 222, 222);color:rgb(21, 147, 3);}
+
+._button-6{z-index:10;width:6.6666666666%;height:22px;margin:-106px 0 0 32.5%;border:1px solid rgb(0, 0, 0);border-radius:11px;background-color:rgb(222, 222, 222);color:rgb(238, 8, 8);}
+
+._button-7{z-index:11;width:6.6666666666%;height:22px;margin:-106px 0 0 40.08203%;border:1px solid rgb(0, 0, 0);border-radius:11px;background-color:rgb(222, 222, 222);color:rgb(1, 1, 1);}
+
+@media(max-width: 600px) {
+.h2{position:relative;}
+
+.text{position:relative;z-index:12;width:19%;margin-top:-81px;margin-left:5.66667%;}
+
+._button{position:relative;}
+
+._input{position:relative;z-index:13;width:41%;height:44px;margin-top:-59px;margin-left:5.66667%;}
+
+.container-1{position:relative;z-index:0;border-width:1px;border-color:rgb(75, 177, 103);border-radius:2px;}
+
+.container-2{position:relative;z-index:6;}
+
+.container-3{width:92.3333333333%;height:267px;margin-top:15px;margin-left:3.83073%;}
+
+.container-4{position:relative;z-index:8;width:44.3333333333%;margin-top:11px;margin-left:3.83073%;}
+
+.container-5{position:relative;z-index:7;width:46.1666666666%;}
+
+.h2-1{clear:both;z-index:15;margin-top:-20px;margin-left:-0.3307300001%;font-size:15px;text-align:center;}
+
+.h2-2{z-index:5;margin-top:-23px;margin-left:3.83073%;}
+
+._button-1{z-index:14;width:18.8299999999%;height:62px;margin-top:-74px;margin-left:6.5%;}
+
+._button-2{z-index:1;margin-left:60.29948%;background-size:cover;background-position:right center;}
+
+._button-3{z-index:2;margin-left:74.16927%;background-size:cover;}
+
+._button-4{z-index:3;width:8%;margin-left:87.66927%;background-size:cover;}
+
+._button-5{z-index:9;width:12.8333333333%;margin-top:-110px;margin-left:5.66667%;}
+
+._button-6{z-index:10;width:13.3333333333%;margin-top:-110px;margin-left:19.4974%;}
+
+._button-7{z-index:11;width:13%;margin-top:-110px;margin-left:33.66667%;}
+}

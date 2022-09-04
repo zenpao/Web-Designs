@@ -1,0 +1,48 @@
+Code:
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Default Panel heading</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">Success Panel heading</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Info Panel heading</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">Warning Panel heading</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">Danger Panel heading</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>

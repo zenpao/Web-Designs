@@ -1,0 +1,1022 @@
+Code:
+		<h2>A</h2>
+		<table>
+		  <tr>
+		    <td>align-content</td>
+		    <td>Specifies the alignment between the lines inside a flexible container when the items do not use all available space</td>
+		  </tr>
+		  <tr>
+		    <td>align-items</td>
+		    <td>Specifies the alignment for items inside a flexible container</td>
+		  </tr>
+		  <tr>
+		    <td>align-self</td>
+		    <td>Specifies the alignment for selected items inside a flexible container</td>
+		  </tr>
+		  <tr>
+		    <td>all</td>
+		    <td>Resets all properties (except unicode-bidi and direction)</td>
+		  </tr>
+		  <tr>
+		    <td>animation</td>
+		    <td>A shorthand property for all the <em>animation-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>animation-delay</td>
+		    <td>Specifies a delay for the start of an animation</td>
+		    </tr>
+		  <tr>
+		    <td>animation-direction</td>
+		    <td>Specifies whether an animation should be played forwards, backwards or 
+		    in alternate cycles</td>
+		    </tr>
+		  <tr>
+		    <td>animation-duration</td>
+		    <td>Specifies how long an animation should take to complete one cycle</td>
+		    </tr>
+		  <tr>
+		    <td>animation-fill-mode</td>
+		    <td>Specifies a style for the element when the animation is not playing (before 
+		    it starts, after it ends, or both)</td>
+		    </tr>
+		  <tr>
+		    <td>animation-iteration-count</td>
+		    <td>Specifies the number of times an animation should be played</td>
+		    </tr>
+		  <tr>
+		    <td>animation-name</td>
+		    <td>Specifies a name for the @keyframes animation</td>
+		  </tr>
+		  <tr>
+		    <td>animation-play-state</td>
+		    <td>Specifies whether the animation is running or paused</td>
+		    </tr>
+		  <tr>
+		    <td>animation-timing-function</td>
+		    <td>Specifies the speed curve of an animation</td>
+		  </tr>
+		</table>
+
+		<h2>B</h2>
+		<table>
+		  <tr>
+		    <td width="30%">backface-visibility</td>
+		    <td>Defines whether or not the back face of an element should be visible when facing the user</td>
+		  </tr>
+		  <tr>
+		    <td>background</td>
+		    <td>A shorthand property for all the <em>background-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>background-attachment</td>
+		    <td>Sets whether a background image scrolls with the rest of the page, or is fixed</td>
+		  </tr>
+		  <tr>
+		    <td>background-blend-mode</td>
+		    <td>Specifies the blending mode of each background layer (color/image)</td>
+		  </tr>
+		  <tr>
+		    <td>background-clip</td>
+		    <td>Defines how far the background (color or image) should extend within an 
+		    element</td>
+		  </tr>
+		  <tr>
+		    <td>background-color</td>
+		    <td>Specifies the background color of an element</td>
+		  </tr>
+		  <tr>
+		    <td>background-image</td>
+		    <td>Specifies one or more background images for an element</td>
+		  </tr>
+		  <tr>
+		    <td>background-origin</td>
+		    <td>Specifies the origin position of a background image</td>
+		  </tr>
+		  <tr>
+		    <td>background-position</td>
+		    <td>Specifies the position of a background image</td>
+		  </tr>
+		  <tr>
+		    <td>background-repeat</td>
+		    <td>Sets if/how a background image will be repeated</td>
+		  </tr>
+		  <tr>
+		    <td>background-size</td>
+		    <td>Specifies the size of the background images</td>
+		  </tr>
+		  <tr>
+		    <td>border</td>
+		    <td>A shorthand property for <em>border-width, border-style</em> and <em>border-color</em></td>
+		  </tr>
+		  <tr>
+		    <td>border-bottom</td>
+		    <td>A shorthand property for <em>border-bottom-width, border-bottom-style</em> 
+		    and <em>border-bottom-color</em></td>
+		  </tr>
+		  <tr>
+		    <td>border-bottom-color</td>
+		    <td>Sets the color of the bottom border</td>
+		  </tr>
+		  <tr>
+		    <td>border-bottom-left-radius</td>
+		    <td>Defines the radius of the border of the bottom-left corner</td>
+		  </tr>
+		  <tr>
+		    <td>border-bottom-right-radius</td>
+		    <td>Defines the radius of the border of the bottom-right corner</td>
+		  </tr>
+		  <tr>
+		    <td>border-bottom-style</td>
+		    <td>Sets the style of the bottom border</td>
+		  </tr>
+		  <tr>
+		    <td>border-bottom-width</td>
+		    <td>Sets the width of the bottom border</td>
+		  </tr>
+		  <tr>
+		    <td>border-collapse</td>
+		    <td>Sets whether table borders should collapse into a single border or be separated</td>
+		  </tr>
+		  <tr>
+		    <td>border-color</td>
+		    <td>Sets the color of the four borders</td>
+		  </tr>
+		  <tr>
+		    <td>border-image</td>
+		    <td>A shorthand property for all the <em>border-image-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>border-image-outset</td>
+		    <td>Specifies the amount by which the border image area extends beyond the border box</td>
+		  </tr>
+		  <tr>
+		    <td>border-image-repeat</td>
+		    <td>Specifies whether the border image should be repeated, rounded or stretched</td>
+		  </tr>
+		  <tr>
+		    <td>border-image-slice</td>
+		    <td>Specifies how to slice the border image</td>
+		  </tr>
+		  <tr>
+		    <td>border-image-source</td>
+		    <td>Specifies the path to the image to be used as a border</td>
+		  </tr>
+		  <tr>
+		    <td>border-image-width</td>
+		    <td>Specifies the width of the border image</td>
+		  </tr>
+		  <tr>
+		    <td>border-left</td>
+		    <td>A shorthand property for all the <em>border-left-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>border-left-color</td>
+		    <td>Sets the color of the left border</td>
+		  </tr>
+		  <tr>
+		    <td>border-left-style</td>
+		    <td>Sets the style of the left border</td>
+		  </tr>
+		  <tr>
+		    <td>border-left-width</td>
+		    <td>Sets the width of the left border</td>
+		  </tr>
+		  <tr>
+		    <td>border-radius</td>
+		    <td>A shorthand property for the four <em>border-*-radius</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>border-right</td>
+		    <td>A shorthand property for all the <em>border-right-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>border-right-color</td>
+		    <td>Sets the color of the right border</td>
+		  </tr>
+		  <tr>
+		    <td>border-right-style</td>
+		    <td>Sets the style of the right border</td>
+		  </tr>
+		  <tr>
+		    <td>border-right-width</td>
+		    <td>Sets the width of the right border</td>
+		  </tr>
+		  <tr>
+		    <td>border-spacing</td>
+		    <td>Sets the distance between the borders of adjacent cells</td>
+		  </tr>
+		  <tr>
+		    <td>border-style</td>
+		    <td>Sets the style of the four borders</td>
+		  </tr>
+		  <tr>
+		    <td>border-top</td>
+		    <td>A shorthand property for <em>border-top-width, border-top-style</em> and
+		    <em>border-top-color</em></td>
+		  </tr>
+		  <tr>
+		    <td>border-top-color</td>
+		    <td>Sets the color of the top border</td>
+		  </tr>
+		  <tr>
+		    <td>border-top-left-radius</td>
+		    <td>Defines the radius of the border of the top-left corner</td>
+		  </tr>
+		  <tr>
+		    <td>border-top-right-radius</td>
+		    <td>Defines the radius of the border of the top-right corner</td>
+		  </tr>
+		  <tr>
+		    <td>border-top-style</td>
+		    <td>Sets the style of the top border</td>
+		  </tr>
+		  <tr>
+		    <td>border-top-width</td>
+		    <td>Sets the width of the top border</td>
+		  </tr>
+		  <tr>
+		    <td>border-width</td>
+		    <td>Sets the width of the four borders</td>
+		  </tr>
+		  <tr>
+		    <td>bottom</td>
+		    <td>Sets the elements position, from the bottom of its parent element</td>
+		  </tr>
+		  <tr>
+		    <td>box-decoration-break</td>
+		    <td>Sets the behavior of the background and border of an element at page-break, or, for  in-line elements, at line-break.</td>
+		  </tr>
+		  <tr>
+		    <td>box-shadow</td>
+		    <td>Attaches one or more shadows to an element</td>
+		  </tr>
+		  <tr>
+		    <td>box-sizing</td>
+		    <td>Defines how the width and height of an element are calculated: should 
+		    they include padding and borders, or not</td>
+		  </tr>
+		  <tr>
+		    <td>break-after</td>
+		    <td>Specifies whether or not a page-, column-, or region-break should occur 
+		    after the specified element</td>
+		  </tr>
+		  <tr>
+		    <td>break-before</td>
+		    <td>Specifies whether or not a page-, column-, or region-break should occur 
+		    before the specified element</td>
+		  </tr>
+		  <tr>
+		    <td>break-inside</td>
+		    <td>Specifies whether or not a page-, column-, or region-break should occur 
+		    inside the specified element</td>
+		  </tr>
+		</table>
+
+		<h2>C</h2>
+		<table>
+		  <tr>
+		    <td>caption-side</td>
+		    <td>Specifies the placement of a table caption</td>
+		  </tr>
+		  <tr>
+		    <td>caret-color</td>
+		    <td>Specifies the color of the cursor (caret) in inputs, textareas, or any 
+		    element that is editable</td>
+		  </tr>
+		  <tr>
+		    <td>@charset</td>
+		    <td>Specifies the character encoding used in the style sheet</td>
+		  </tr>
+		  <tr>
+		    <td>clear</td>
+		    <td>Specifies on which sides of an element floating elements are not allowed to float</td>
+		  </tr>
+		  <tr>
+		    <td>clip</td>
+		    <td>Clips an absolutely positioned element</td>
+		  </tr>
+		  <tr>
+		    <td>color</td>
+		    <td>Sets the color of text</td>
+		  </tr>
+		  <tr>
+		    <td>column-count</td>
+		    <td>Specifies the number of columns an element should be divided into</td>
+		  </tr>
+		  <tr>
+		    <td>column-fill</td>
+		    <td>Specifies how to fill columns, balanced or not</td>
+		  </tr>
+		  <tr>
+		    <td>column-gap</td>
+		    <td>Specifies the gap between the columns</td>
+		  </tr>
+		  <tr>
+		    <td>column-rule</td>
+		    <td>A shorthand property for all the <em>column-rule-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>column-rule-color</td>
+		    <td>Specifies the color of the rule between columns</td>
+		  </tr>
+		  <tr>
+		    <td>column-rule-style</td>
+		    <td>Specifies the style of the rule between columns</td>
+		  </tr>
+		  <tr>
+		    <td>column-rule-width</td>
+		    <td>Specifies the width of the rule between columns</td>
+		  </tr>
+		  <tr>
+		    <td>column-span</td>
+		    <td>Specifies how many columns an element should span across</td>
+		  </tr>
+		  <tr>
+		    <td>column-width</td>
+		    <td>Specifies the column width</td>
+		  </tr>
+		  <tr>
+		    <td>columns</td>
+		    <td>A shorthand property for <em>column-width</em> and <em>column-count</em></td>
+		  </tr>
+		  <tr>
+		    <td>content</td>
+		    <td>Used with the :before and :after pseudo-elements, to insert generated content</td>
+		  </tr>
+		  <tr>
+		    <td>counter-increment</td>
+		    <td>Increases or decreases the value of one or more CSS counters</td>
+		  </tr>
+		  <tr>
+		    <td>counter-reset</td>
+		    <td>Creates or resets one or more CSS counters</td>
+		  </tr>
+		  <tr>
+		    <td>cursor</td>
+		    <td>Specifies the mouse cursor to be displayed when pointing over an element</td>
+		  </tr>
+		</table>
+
+		<h2>D</h2>
+		<table>
+		  <tr>
+		    <td width="22%">direction</td>
+		    <td>Specifies the text direction/writing direction</td>
+		  </tr>
+		  <tr>
+		    <td>display</td>
+		    <td>Specifies how a certain HTML element should be displayed</td>
+		  </tr>
+		</table>
+
+		<h2>E</h2>
+		<table>
+		  <tr>
+		    <td width="20%">empty-cells</td>
+		    <td>Specifies whether or not to display borders and background on empty cells in a table</td>
+		  </tr>
+		</table>
+
+		<h2>F</h2>
+		<table>
+		  <tr>
+		    <td width="20%">filter</td>
+		    <td>Defines effects (e.g. blurring or color shifting) on an element before the element is displayed</td>
+		  </tr>
+		  <tr>
+		    <td>flex</td>
+		    <td>A shorthand property for the <em>flex-grow, flex-shrink</em>, and the 
+		    <em>flex-basis</em> 
+		    properties</td>
+		  </tr>
+		  <tr>
+		    <td>flex-basis</td>
+		    <td>Specifies the initial length of a flexible item</td>
+		  </tr>
+		  <tr>
+		    <td>flex-direction</td>
+		    <td>Specifies the direction of the flexible items</td>
+		  </tr>
+		  <tr>
+		    <td>flex-flow</td>
+		    <td>A shorthand property for the <em>flex-direction</em> and the <em>flex-wrap</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>flex-grow</td>
+		    <td>Specifies how much the item will grow relative to the rest</td>
+		  </tr>
+		  <tr>
+		    <td>flex-shrink</td>
+		    <td>Specifies how the item will shrink relative to the rest</td>
+		  </tr>
+		  <tr>
+		    <td>flex-wrap</td>
+		    <td>Specifies whether the flexible items should wrap or not</td>
+		  </tr>
+		  <tr>
+		    <td>float</td>
+		    <td>Specifies whether or not a box should float</td>
+		  </tr>
+		  <tr>
+		    <td>font</td>
+		    <td>A shorthand property for the <em>font-style, font-variant, font-weight, 
+		    font-size/line-height</em>, and the <em>font-family</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>@font-face</td>
+		    <td>A rule that allows websites to download and use fonts other than the &quot;web-safe&quot; fonts</td>
+		    </tr>
+		  <tr>
+		    <td>font-family</td>
+		    <td>Specifies the font family for text</td>
+		  </tr>
+		  <tr>
+		    <td>font-feature-settings</td>
+		    <td>Allows control over advanced typographic features in OpenType fonts</td>
+		  </tr>
+		  <tr>
+		    <td>@font-feature-values</td>
+		    <td>Allows authors to use a common name in font-variant-alternate for feature activated differently in OpenType</td>
+		    </tr>
+		  <tr>
+		    <td>font-kerning</td>
+		    <td>Controls the usage of the kerning information (how letters are spaced)</td>
+		  </tr>
+		  <tr>
+		    <td>font-language-override</td>
+		    <td>Controls the usage of language-specific glyphs in a typeface</td>
+		  </tr>
+		  <tr>
+		    <td>font-size</td>
+		    <td>Specifies the font size of text</td>
+		    </tr>
+		  <tr>
+		    <td>font-size-adjust</td>
+		    <td>Preserves the readability of text when font fallback occurs</td>
+		    </tr>
+		  <tr>
+		    <td>font-stretch</td>
+		    <td>Selects a normal, condensed, or expanded face from a font family</td>
+		    </tr>
+		  <tr>
+		    <td>font-style</td>
+		    <td>Specifies the font style for text</td>
+		    </tr>
+		  <tr>
+		    <td>font-synthesis</td>
+		    <td>Controls which missing typefaces (bold or italic) may be synthesized by the browser</td>
+		  </tr>
+		  <tr>
+		    <td>font-variant</td>
+		    <td>Specifies whether or not a text should be displayed in a small-caps font</td>
+		    </tr>
+		  <tr>
+		    <td>font-variant-alternates</td>
+		    <td>Controls the usage of alternate glyphs associated to alternative names defined in @font-feature-values</td>
+		  </tr>
+		  <tr>
+		    <td>font-variant-caps</td>
+		    <td>Controls the usage of alternate glyphs for capital letters</td>
+		  </tr>
+		  <tr>
+		    <td>font-variant-east-asian</td>
+		    <td>Controls the usage of alternate glyphs for East Asian scripts (e.g Japanese and Chinese)</td>
+		  </tr>
+		  <tr>
+		    <td>font-variant-ligatures</td>
+		    <td>Controls which ligatures and contextual forms are used in textual content of the elements it applies to</td>
+		  </tr>
+		  <tr>
+		    <td>font-variant-numeric</td>
+		    <td>Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers</td>
+		  </tr>
+		  <tr>
+		    <td>font-variant-position</td>
+		    <td>Controls the usage of alternate glyphs of smaller size positioned as superscript or subscript regarding the baseline of the font</td>
+		  </tr>
+		  <tr>
+		    <td>font-weight</td>
+		    <td>Specifies the weight of a font</td>
+		  </tr>
+		</table>
+
+		<h2>G</h2>
+		<table>
+		  <tr>
+		    <td width="20%">grid</td>
+		    <td>A shorthand property for the <em>grid-template-rows, 
+		    grid-template-columns, grid-template-areas, grid-auto-rows, 
+		    grid-auto-columns</em>, and the <em>grid-auto-flow</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>grid-area</td>
+		    <td>Either specifies a name for the grid item, or this property is a shorthand property for the <em>grid-row-start</em>, <em>grid-column-start</em>, <em>grid-row-end</em>, and <em>grid-column-end</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>grid-auto-columns</td>
+		    <td>Specifies a default column size</td>
+		  </tr>
+		  <tr>
+		    <td>grid-auto-flow</td>
+		    <td>Specifies how auto-placed items are inserted in the grid</td>
+		  </tr>
+		  <tr>
+		    <td>grid-auto-rows</td>
+		    <td>Specifies a default row size</td>
+		  </tr>
+		  <tr>
+		    <td>grid-column</td>
+		    <td>A shorthand property for the <em>grid-column-start</em> and the <em>grid-column-end</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>grid-column-end</td>
+		    <td>Specifies where to end the grid item</td>
+		  </tr>
+		  <tr>
+		    <td>grid-column-gap</td>
+		    <td>Specifies the size of the gap between columns</td>
+		  </tr>
+		  <tr>
+		    <td>grid-column-start</td>
+		    <td>Specifies where to start the grid item</td>
+		  </tr>
+		  <tr>
+		    <td>grid-gap</td>
+		    <td>A shorthand property for the <em>grid-row-gap</em> and <em>grid-column-gap</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>grid-row</td>
+		    <td>A shorthand property for the <em>grid-row-start</em> and the <em>grid-row-end</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>grid-row-end</td>
+		    <td>Specifies where to end the grid item</td>
+		  </tr>
+		  <tr>
+		    <td>grid-row-gap</td>
+		    <td>Specifies the size of the gap between rows</td>
+		  </tr>
+		  <tr>
+		    <td>grid-row-start</td>
+		    <td>Specifies where to start the grid item</td>
+		  </tr>
+		  <tr>
+		    <td>grid-template</td>
+		    <td>A shorthand property for the <em>grid-template-rows</em>, <em>grid-template-columns</em> 
+		    and <em>grid-areas</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>grid-template-areas</td>
+		    <td>Specifies how to display columns and rows, using named grid items</td>
+		  </tr>
+		  <tr>
+		    <td>grid-template-columns</td>
+		    <td>Specifies the size of the columns, and how many columns in a grid layout</td>
+		  </tr>
+		  <tr>
+		    <td>grid-template-rows</td>
+		    <td>Specifies the size of the rows in a grid layout</td>
+		  </tr>
+		</table>
+
+		<h2>H</h2>
+		<table>
+		  <tr>
+		    <td width="20%">hanging-punctuation</td>
+		    <td>Specifies whether a punctuation character may be placed outside the line box</td>
+		  </tr>
+		  <tr>
+		    <td>height</td>
+		    <td>Sets the height of an element</td>
+		  </tr>
+		  <tr>
+		    <td>hyphens</td>
+		    <td>Sets how to split words to improve the layout of paragraphs</td>
+		  </tr>
+		</table>
+
+		<h2>I</h2>
+		<table>
+		  <tr>
+		    <td width="20%">image-rendering</td>
+		    <td>Gives a hint to the browser about what aspects of an image are most important to preserve when the image is scaled</td>
+		  </tr>
+		  <tr>
+		    <td>@import</td>
+		    <td>Allows you to import a style sheet into another style sheet</td>
+		  </tr>
+		  <tr>
+		    <td>isolation</td>
+		    <td>Defines whether an element must create a new stacking content</td>
+		  </tr>
+		</table>
+
+		<h2>J</h2>
+		<table>
+		  <tr>
+		    <td width="20%">justify-content</td>
+		    <td>Specifies the alignment between the items inside a flexible container when the items do not use all available space</td>
+		  </tr>
+		</table>
+
+		<h2>K</h2>
+		<table>
+		  <tr>
+		    <td width="37%">@keyframes</td>
+		    <td>Specifies the animation code</td>
+		  </tr>
+		</table>
+
+		<h2>L</h2>
+		<table>
+		  <tr>
+		    <td width="22%">left</td>
+		    <td>Specifies the left position of a positioned element</td>
+		  </tr>
+		  <tr>
+		    <td>letter-spacing</td>
+		    <td>Increases or decreases the space between characters in a text</td>
+		  </tr>
+		  <tr>
+		    <td>line-break</td>
+		    <td>Specifies how/if to break lines</td>
+		  </tr>
+		  <tr>
+		    <td>line-height</td>
+		    <td>Sets the line height</td>
+		  </tr>
+		  <tr>
+		    <td>list-style</td>
+		    <td>Sets all the properties for a list in one declaration</td>
+		  </tr>
+		  <tr>
+		    <td>list-style-image</td>
+		    <td>Specifies an image as the list-item marker</td>
+		  </tr>
+		  <tr>
+		    <td>list-style-position</td>
+		    <td>Specifies the position of the list-item markers (bullet points)</td>
+		  </tr>
+		  <tr>
+		    <td>list-style-type</td>
+		    <td>Specifies the type of list-item marker</td>
+		  </tr>
+		</table>
+
+		<h2>M</h2>
+		<table>
+		  <tr>
+		    <td width="20%">margin</td>
+		    <td>Sets all the margin properties in one declaration</td>
+		    </tr>
+		  <tr>
+		    <td>margin-bottom</td>
+		    <td>Sets the bottom margin of an element</td>
+		    </tr>
+		  <tr>
+		    <td>margin-left</td>
+		    <td>Sets the left margin of an element</td>
+		  </tr>
+		  <tr>
+		    <td>margin-right</td>
+		    <td>Sets the right margin of an element</td>
+		  </tr>
+		  <tr>
+		    <td>margin-top</td>
+		    <td>Sets the top margin of an element</td>
+		  </tr>
+		  <tr>
+		    <td>max-height</td>
+		    <td>Sets the maximum height of an element</td>
+		  </tr>
+		  <tr>
+		    <td>max-width</td>
+		    <td>Sets the maximum width of an element</td>
+		  </tr>
+		  <tr>
+		    <td>@media</td>
+		    <td>Sets the style rules for different media types/devices/sizes</td>
+		  </tr>
+		  <tr>
+		    <td>min-height</td>
+		    <td>Sets the minimum height of an element</td>
+		  </tr>
+		  <tr>
+		    <td>min-width</td>
+		    <td>Sets the minimum width of an element</td>
+		  </tr>
+		  <tr>
+		    <td>mix-blend-mode</td>
+		    <td>Specifies how an element's content should blend with its direct parent background</td>
+		  </tr>
+		</table>
+
+		<h2>O</h2>
+		<table>
+		  <tr>
+		    <td width="20%">object-fit</td>
+		    <td>Specifies how the contents of a replaced element should be fitted to the box established by its used height and width</td>
+		  </tr>
+		  <tr>
+		    <td>object-position</td>
+		    <td>Specifies the alignment of the replaced element inside its box</td>
+		  </tr>
+		  <tr>
+		    <td>opacity</td>
+		    <td>Sets the opacity level for an element</td>
+		  </tr>
+		  <tr>
+		    <td>order</td>
+		    <td>Sets the order of the flexible item, relative to the rest</td>
+		  </tr>
+		  <tr>
+		    <td>orphans</td>
+		    <td>Sets the minimum number of lines that must be left at the bottom of a page when a page break occurs inside an element</td>
+		  </tr>
+		  <tr>
+		    <td>outline</td>
+		    <td>A shorthand property for the <em>outline-width, outline-style</em>, and 
+		    the <em>outline-color</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>outline-color</td>
+		    <td>Sets the color of an outline</td>
+		  </tr>
+		  <tr>
+		    <td>outline-offset</td>
+		    <td>Offsets an outline, and draws it beyond the border edge</td>
+		  </tr>
+		  <tr>
+		    <td>outline-style</td>
+		    <td>Sets the style of an outline</td>
+		  </tr>
+		  <tr>
+		    <td>outline-width</td>
+		    <td>Sets the width of an outline</td>
+		  </tr>
+		  <tr>
+		    <td>overflow<br>
+		    </td>
+		    <td>Specifies what happens if content overflows an element's box</td>
+		  </tr>
+		  <tr>
+		    <td>overflow-wrap</td>
+		    <td>Specifies whether or not the browser may break lines within words in order to prevent overflow (when a string is too long to fit its containing box)</td>
+		  </tr>
+		  <tr>
+		    <td>overflow-x</td>
+		    <td>Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area</td>
+		  </tr>
+		  <tr>
+		    <td>overflow-y</td>
+		    <td>Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area</td>
+		  </tr>
+		</table>
+
+		<h2>P</h2>
+		<table>
+		  <tr>
+		    <td width="20%">padding</td>
+		    <td>A shorthand property for all the <em>padding-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>padding-bottom</td>
+		    <td>Sets the bottom padding of an element</td>
+		  </tr>
+		  <tr>
+		    <td>padding-left</td>
+		    <td>Sets the left padding of an element</td>
+		  </tr>
+		  <tr>
+		    <td>padding-right</td>
+		    <td>Sets the right padding of an element</td>
+		  </tr>
+		  <tr>
+		    <td>padding-top</td>
+		    <td>Sets the top padding of an element</td>
+		  </tr>
+		  <tr>
+		    <td>page-break-after</td>
+		    <td>Sets the page-break behavior after an element</td>
+		  </tr>
+		  <tr>
+		    <td>page-break-before</td>
+		    <td>Sets the page-break behavior before an element</td>
+		  </tr>
+		  <tr>
+		    <td>page-break-inside</td>
+		    <td>Sets the page-break behavior inside an element</td>
+		  </tr>
+		  <tr>
+		    <td>perspective</td>
+		    <td>Gives a 3D-positioned element some perspective</td>
+		  </tr>
+		  <tr>
+		    <td>perspective-origin</td>
+		    <td>Defines at which position the user is looking at the 3D-positioned element</td>
+		  </tr>
+		  <tr>
+		    <td>pointer-events</td>
+		    <td>Defines whether or not an element reacts to pointer events</td>
+		  </tr>
+		  <tr>
+		    <td>position</td>
+		    <td>Specifies the type of positioning method used for an element (static, relative, absolute or fixed)</td>
+		  </tr>  
+		</table>
+
+		<h2>Q</h2>
+		<table>
+		  <tr>
+		    <td width="22%">quotes</td>
+		    <td>Sets the type of quotation marks for embedded quotations</td>
+		  </tr>
+		</table>
+
+		<h2>R</h2>
+		<table>
+		  <tr>
+		    <td width="23%">resize</td>
+		    <td>Defines if (and how) an element is resizable by the user</td>
+		  </tr>
+		  <tr>
+		    <td>right</td>
+		    <td>Specifies the right position of a positioned element</td>
+		  </tr>
+		</table>
+
+		<h2>S</h2>
+		<table>
+		  <tr>
+		    <td width="20%">scroll-behavior</td>
+		    <td>Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump</td>
+		  </tr>
+		</table>
+
+		<h2>T</h2>
+		<table>
+		  <tr>
+		    <td width="22%">tab-size</td>
+		    <td>Specifies the width of a tab character</td>
+		  </tr>
+		  <tr>
+		    <td>table-layout</td>
+		    <td>Defines the algorithm used to lay out table cells, rows, and columns</td>
+		  </tr>
+		  <tr>
+		    <td>text-align</td>
+		    <td>Specifies the horizontal alignment of text</td>
+		  </tr>
+		  <tr>
+		    <td>text-align-last</td>
+		    <td>Describes how the last line of a block or a line right before a forced line break is aligned when text-align is &quot;justify&quot;</td>
+		  </tr>
+		  <tr>
+		    <td>text-combine-upright</td>
+		    <td>Specifies the combination of multiple characters into the space of a single character</td>
+		  </tr>
+		  <tr>
+		    <td>text-decoration</td>
+		    <td>Specifies the decoration added to text</td>
+		  </tr>
+		  <tr>
+		    <td>text-decoration-color</td>
+		    <td>Specifies the color of the text-decoration</td>
+		  </tr>
+		  <tr>
+		    <td>text-decoration-line</td>
+		    <td>Specifies the type of line in a text-decoration</td>
+		  </tr>
+		  <tr>
+		    <td>text-decoration-style</td>
+		    <td>Specifies the style of the line in a text decoration</td>
+		  </tr>
+		  <tr>
+		    <td>text-indent</td>
+		    <td>Specifies the indentation of the first line in a text-block</td>
+		  </tr>
+		  <tr>
+		    <td>text-justify</td>
+		    <td>Specifies the justification method used when text-align is &quot;justify&quot;</td>
+		  </tr>
+		  <tr>
+		    <td>text-orientation</td>
+		    <td>Defines the orientation of the text in a line</td>
+		  </tr>
+		  <tr>
+		    <td>text-overflow</td>
+		    <td>Specifies what should happen when text overflows the containing element</td>
+		  </tr>
+		  <tr>
+		    <td>text-shadow</td>
+		    <td>Adds shadow to text </td>
+		  </tr>
+		  <tr>
+		    <td>text-transform</td>
+		    <td>Controls the capitalization of text</td>
+		  </tr>
+		  <tr>
+		    <td>text-underline-position</td>
+		    <td>Specifies the position of the underline which is set using the text-decoration property</td>
+		  </tr>
+		  <tr>
+		    <td>top</td>
+		    <td>Specifies the top position of a positioned element</td>
+		  </tr>
+		  <tr>
+		    <td>transform</td>
+		    <td>Applies a 2D or 3D transformation to an element</td>
+		  </tr>
+		  <tr>
+		    <td>transform-origin</td>
+		    <td>Allows you to change the position on transformed elements</td>
+		  </tr>
+		  <tr>
+		    <td>transform-style</td>
+		    <td>Specifies how nested elements are rendered in 3D space</td>
+		  </tr>
+		  <tr>
+		    <td>transition</td>
+		    <td>A shorthand property for all the <em>transition-*</em> properties</td>
+		  </tr>
+		  <tr>
+		    <td>transition-delay</td>
+		    <td>Specifies when the transition effect will start</td>
+		  </tr>
+		  <tr>
+		    <td>transition-duration</td>
+		    <td>Specifies how many seconds or milliseconds a transition effect takes to complete</td>
+		  </tr>
+		  <tr>
+		    <td>transition-property</td>
+		    <td>Specifies the name of the CSS property the transition effect is for</td>
+		  </tr>
+		  <tr>
+		    <td>transition-timing-function</td>
+		    <td>Specifies the speed curve of the transition effect</td>
+		  </tr>
+		</table>
+
+		<h2>U</h2>
+		<table>
+		  <tr>
+		    <td width="20%">unicode-bidi</td>
+		    <td>Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document</td>
+		  </tr>
+		  <tr>
+		    <td>user-select</td>
+		    <td>Specifies whether the text of an element can be selected</td>
+		  </tr>
+		</table>
+
+		<h2>V</h2>
+		<table>
+		  <tr>
+		    <td width="27%">vertical-align</td>
+		    <td>Sets the vertical alignment of an element</td>
+		  </tr>    
+		  <tr>
+		    <td>visibility</td>
+		    <td>Specifies whether or not an element is visible</td>
+		  </tr>
+		</table>
+
+		<h2>W</h2>
+		<table>
+		  <tr>
+		    <td width="20%">white-space</td>
+		    <td>Specifies how white-space inside an element is handled</td>
+		  </tr>
+		  <tr>
+		    <td>widows</td>
+		    <td>Sets the minimum number of lines that must be left at the top of a page when a page break occurs inside an element</td>
+		  </tr>
+		  <tr>
+		    <td>width</td>
+		    <td>Sets the width of an element</td>
+		  </tr>
+		  <tr>
+		    <td>word-break</td>
+		    <td>Specifies how words should break when reaching the end of a line</td>
+		  </tr>
+		  <tr>
+		    <td>word-spacing</td>
+		    <td>Increases or decreases the space between words in a text</td>
+		  </tr>
+		  <tr>
+		    <td>word-wrap</td>
+		    <td>Allows long, unbreakable words to be broken and wrap to the next line</td>
+		  </tr>
+		  <tr>
+		    <td>writing-mode</td>
+		    <td>Specifies whether lines of text are laid out horizontally or vertically</td>
+		  </tr>
+		</table>
+
+		<h2>Z</h2>
+		<table>
+		  <tr>
+		    <td width="28%">z-index</td>
+		    <td>Sets the stack order of a positioned element</td>
+		  </tr>
+		</table>

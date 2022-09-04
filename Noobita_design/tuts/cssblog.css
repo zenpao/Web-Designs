@@ -1,0 +1,25 @@
+body {
+	width: 80%;
+	max-width: 700px;
+	background-color: white;
+	border: 20px solid gray;
+	margin: 20px auto;
+
+	padding: 20px;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+.date {
+	color: blue;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.quote {
+	border-left: 5px solid gray;
+	padding-left: 5px;
+
+}

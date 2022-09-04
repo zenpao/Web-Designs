@@ -1,0 +1,117 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding-top: 70px;
+	background-color:white;
+	background-image: url(../img/just-code.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.dropdown {
+    margin-bottom: 5px;
+}
+
+.pink {
+    background: pink;
+}
+
+.landing {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.jumbotron {
+    color: inherit;
+    background-color: #f7edd3;
+}
+
+/* NAV section colors */
+.navbar-default {
+	background: #f7edd3;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: grey;
+    background-color: transparent;
+}
+
+.btn-default {
+	color: black;
+    background-color: #f7edd3;
+    border-color: #f7edd3;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+/* DROPDOWN colors */
+.btn-default-green {
+    color: white;
+    background-color: #3c993d;
+    border-color: #3c763d;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.btn-default-blue {
+    color: white;
+    background-color: #3170f9;
+    border-color: #31708f;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.btn-default-bronze {
+    color: white;
+    background-color: #8a513b;
+    border-color: #8a513b;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.btn-default-red {
+    color: white;
+    background-color: #e94442;
+    border-color: #a94442;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+/* FAQ section PANEL colors */
+.panel-success > .panel-heading {
+    color: white;
+    background-color: #3c993d;
+    border-color: #3c763d;
+}
+
+.panel-primary > .panel-heading {
+    color: white;
+    background-color: #3170f9;
+    border-color: #31708f;
+}
+
+.panel-warning > .panel-heading {
+    color: white;
+    background-color: #8a513b;
+    border-color: #8a513b;
+}
+
+.panel-danger > .panel-heading {
+    color: white;
+    background-color: #e94442;
+    border-color: #a94442;
+}

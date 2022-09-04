@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="_author_">
+    <meta name="designer" content="_designer_">
+    <meta name="description" content="_description_">
+    <meta name="keywords" content="_keywords_">
+
+   <meta name="application-name" content="_appName_">
+    <meta name="apple-mobile-web-app-title" content="_appName_">
+    <meta name="msapplication-config" content="_browserConfigFile_">
+    <meta name="theme-color" content="_themeColor_">
+    <link rel="apple-touch-icon" href="../img/_appleIconFile_" sizes="180x180">
+    <link rel="icon" type="image/png" href="../img/_faviconFile32x32_" sizes="32x32">
+    <link rel="icon" type="image/png" href="../img/_faviconFile16x16_" sizes="16x16">
+    <link rel="manifest" href="_manifestFile_">
+    <link rel="mask-icon" href="../img/_maskIconFile_">
+    <link rel="shortcut icon" href="../img/_faviconIcoFile_">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" media="all"/>
+
+    <title>Bootstrap 3: Navigation Bars</title>
+</head>
+
+<body style="background-color: silver;">
+
+  <!-- version 1 with div container -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+              <!-- hamburger menu when resized -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button> <!-- hamburger menu -->
+                <a href="#" class="navbar-brand">BRAND</a>
+            </div>
+            <!-- navbar-collapse - hides when resized -->
+            <div class="collapse navbar-collapse" id="hamburger-1"> 
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a>
+                <li><a href="#">Contact</a>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Sign Up</a>
+                <li><a href="#">Login</a>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+    </nav>
+
+    <!-- version 2 with div container-fluid -->
+    <nav class="navbar navbar-default">
+       <div class="container-fluid">
+            <div class="navbar-header">
+              <!-- hamburger menu when resized -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-2" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button> <!-- hamburger menu -->
+                <a href="#" class="navbar-brand">BRAND</a>
+            </div>
+            <!-- navbar-collapse - hides when resized -->
+            <div class="collapse navbar-collapse" id="hamburger-2">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a>
+                <li><a href="#">Contact</a>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Sign Up</a>
+                <li><a href="#">Login</a>
+            </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
+      </nav>
+
+    <!-- version 3 -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-3" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">BRAND</a>
+        </div>
+
+        <!-- navbar-collapse - hides when resized -->
+        <div class="collapse navbar-collapse" id="hamburger-3">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Subscribe<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Youtube</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Podcast</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Testimonials</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Donate<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Coins.ph</a></li>
+                <li><a href="#">GCash</a></li>
+                <li><a href="#">PayMaya</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">PayPal</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container-fluid -->
+    </nav>
+
+    <!-- version 4 -->
+    <nav class="navbar navbar-invert">
+        <div class="container">
+            <div class="navbar-header">
+              <!-- hamburger menu when resized -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-4" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button> <!-- hamburger menu -->
+                <a class="navbar-brand" href="#">BRAND</a>
+                <p class="navbar-text hidden-lg">BRAND by <a href="bit.ly/aboutzenpao" class="navbar-link" target="_blank">zenpao</a></p>
+            </div>
+            <!-- navbar-collapse - hides when resized -->
+            <div class="collapse navbar-collapse" id="hamburger-4"> 
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">About</a>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="bit.ly/aboutzenpao" target="_blank">LinkedIn</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="github.com/zenpao" target="_blank">Github</a></li>
+              </ul>
+            </li>
+                    <li><a href="#">FAQs</a>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <p class="navbar-text hidden-md hidden-sm hidden-xs">Transparent by <a href="bit.ly/aboutzenpao" class="navbar-link" target="_blank">zenpao</a></p>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+    </nav>
+
+    <!-- version 5 -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+              <!-- hamburger menu when resized -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-5" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button> <!-- hamburger menu -->
+                <a class="navbar-brand" href="#">BRAND</a>
+                <p class="navbar-text hidden-lg">BRAND by <a href="bit.ly/aboutzenpao" class="navbar-link" target="_blank">zenpao</a></p>
+            </div>
+            <!-- navbar-collapse - hides when resized -->
+            <div class="collapse navbar-collapse" id="hamburger-5"> 
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">About</a>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="bit.ly/aboutzenpao" target="_blank">LinkedIn</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="github.com/zenpao" target="_blank">Github</a></li>
+              </ul>
+            </li>
+                    <li><a href="#">FAQs</a>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <p class="navbar-text hidden-md hidden-sm hidden-xs">Inverse by <a href="bit.ly/aboutzenpao" class="navbar-link" target="_blank">zenpao</a></p>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+    </nav>
+
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/jq/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</body>
+</html>

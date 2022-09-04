@@ -1,0 +1,91 @@
+/* 
+    class="classname" is denoted using a period in css (e.g .classname{}) and can be used inside your html many times 
+    while an id="idname" is denoted using a hashtag in css (e.g #idname{}) and can only be refered to a tag ONCED in your html file.
+ */
+
+body {
+    background-color: #171717;
+    margin: 0 auto;
+    /* margin 0 auto -> auto-center body content. */
+    padding: 0;
+    /*  padding is the space inside the divisions
+    while margins are outside the divisions. */
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    /*  background-repeat -> refers to the state of the image background whether it is tiled or not. */
+    background-size: cover;
+    /* background-size -> refers to the state of the image background whether it is set to cover and stretch to the whole page or stay in its original size. */
+}
+
+/*
+    borders can be assigned as a one liner. 
+    first comes the amount, second goes to the style whether it is solid, dashed or outset, and last comes the color of choice.
+    border: 1px dashed #000000;
+*/
+
+div {
+    width: 45%;
+    margin: 1em auto;
+    /* margin -> border around the container. */
+    padding: 1%;
+    background-color: #C0C0C0;
+    border-radius: 1em;
+    /* border-radius -> curvature of edge. */
+    overflow: auto;
+    /* overflow -> Prevents images from going out of size in the container. */
+    border-style: none;
+} 
+
+iframe {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.wider {
+    width: 700px;
+}
+
+.center_table{
+    margin-left: auto;
+    /* margin-left:auto; margin-right:auto; to center */
+    margin-right: auto;
+}
+
+iframe:hover {
+    background: white;
+}
+
+a:link,
+a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    /* image will scale down if it has to, but never scale up to be larger than its original size */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* image will be centered */
+}
+
+@media (max-width: 700px) {
+
+    /* the page will be responsive until 600px */
+    body {
+        background-color: #171717;
+    }
+
+    div {
+        width: 45%;
+        margin: 0 auto;
+    }
+}

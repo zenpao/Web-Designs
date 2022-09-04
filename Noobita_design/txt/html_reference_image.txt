@@ -1,0 +1,2 @@
+Code:
+	<img src="../img/just-code.jpg">

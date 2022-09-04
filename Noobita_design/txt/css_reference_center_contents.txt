@@ -1,0 +1,17 @@
+Code:
+   body {
+	width: 80%;
+
+	/* width -> original width of the webpage's body. */
+
+	max-width: 700px;
+
+	/* max-width -> limit to where the webpage will be
+	responsive. */
+
+	padding: 20px;
+
+	margin: 0 auto;
+
+	/* margin 0 auto -> auto-center body content. */
+     }
